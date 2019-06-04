@@ -5,7 +5,7 @@ def print_pascal_triangle(n):
         return print("1")
     i, l, t = 1, [], []
     while i <= n:
-        c, l, d = l[:], l+[1], 0
+        c, l, d = list(l), l+[1], 0
         while d < len(l):
             if d == 0:
                 a = 0
