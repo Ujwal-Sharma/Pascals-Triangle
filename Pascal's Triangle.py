@@ -30,7 +30,7 @@ def print_pascal_triangle(n):
         while d < len(t[i]):
             t[i][d] += (maxi - len(t[i][d])) * " "
             d += 1
-        t[i] = " ".join(t[i])
+        t[i] = "  ".join(t[i])
         t[i] = ((n - i - 1) + (maxi // 2) * (n - i - 1)) * " " + t[i]
         print(t[i])
         i += 1
