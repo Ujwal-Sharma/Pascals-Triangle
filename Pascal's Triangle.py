@@ -1,5 +1,3 @@
-#Q13
-
 def print_pascal_triangle(n):
     if n <= 0:
         return None
